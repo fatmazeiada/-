@@ -1,0 +1,33 @@
+.parent{
+display: grid;
+grid-template-columns: 400px 1fr auto 20% 2fr;
+grid-template-rows: 200px 400px 1fr 300px auto 500px;
+/*gap: ;
+/*row-gap: 20px;
+/*column-gap: 15px;*/
+grid-template-areas: "nav ";
+
+}
+.child1{
+    background-color: blue;
+}
+
+.child2{
+    background-color: red;
+}
+
+.child3{
+    background-color: green;
+}
+.child4{
+    background-color: gray;
+
+}
+
+.child5{
+    background-color: orange;
+}
+
+.child6{
+    background-color: brown;
+}
